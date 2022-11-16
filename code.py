@@ -109,7 +109,7 @@ confusion_matrix(y_test, dt_yhat, labels = [0, 1])
 
 #====================================================================================================
 
-# 2. K-Nearest Beighbours
+# 2. K-Nearest Neighbours
 
 n = 7
 KNN = KNeighborsClassifier(n_neighbors = n)
